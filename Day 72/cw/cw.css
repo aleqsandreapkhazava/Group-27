@@ -1,0 +1,17 @@
+.block{
+    background-color: green;
+    width: 500px;
+    height: 250px;
+    animation: change 7s infinite;
+    text-align: center;
+    font-family: Arial;
+    animation-duration: 2s;
+    animation-play-state:inherit;
+    animation: change 3s infite ease-in-out 1s alternate running;    
+}   
+
+@keyframes change{
+    0%{background-color: aqua; width: 250px;}
+    50%{background-color: blueviolet ; width: 100px; border-radius: 25px;}
+    100%{background-color: chartreuse; width: 2px;}
+}
